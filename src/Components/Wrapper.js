@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import ApiData from "./ApiData";
 import { FaSearch } from "react-icons/fa";
 import Loader from "../assets/loading.gif";
-import { BiColor, BiFontColor } from "react-icons/bi";
 // import NotFoundImg from "../assets/not-found.png"
 function Wrapper() {
   const [input, setInput] = useState("");
@@ -64,7 +63,7 @@ function Wrapper() {
 
   return (
     <>
-      <div className="w-8/12  h-[100%] mx-auto  flex flex-col items-center">
+      <div className="w-8/12  h-[100%] mx-auto flex-wrap flex flex-col items-center">
         <div className=" justify-center">
           <div className="text-[2rem] text-center text-[white] font-[700] mb-[3.5rem]">
             Weather App
@@ -80,7 +79,7 @@ function Wrapper() {
               Search Weather
             </button>
           </div>
-          {show ?(""):(<div className="flex items-center mt-[4rem] mb-[3rem] w-[full]" >
+          {show ?(""):(<div className="flex flex-wrap items-center mt-[4rem] mb-[3rem] w-[full]" >
             <input
               placeholder="Search for city..."
               className="py-[0.8rem] px-[1rem] w-[40rem] border-none outline-none rounded-[1rem] text-[1.2rem]  text-[white] font-[500] bg-[#0000001a]"
@@ -92,7 +91,7 @@ function Wrapper() {
           </div>)
           }
           {loading ? (
-            <div className="flex justify-center mt-[-2rem]">
+            <div className="flex flex-wrap justify-center mt-[-2rem]">
             <img
               src={Loader}
               style={{ height: "250px" }}

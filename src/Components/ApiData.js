@@ -13,7 +13,7 @@ function ApiData({ apiData, setLoading, valid }) {
   return (
     <>
       <div>
-        <div className=" flex flex-col  items-center">
+        <div className=" flex flex-wrap flex-col items-center">
           <div className="text-[2rem] text-[white] font-[400]">{apiData.location?.name}</div>
           <div className="text-[1.4rem] text-[white] font-[500]">{apiData.current?.condition?.text}</div>
           <img src={apiData.current.condition?.icon} className="" style={{height:"100px"}} alt="icon"></img>
@@ -21,7 +21,7 @@ function ApiData({ apiData, setLoading, valid }) {
              {apiData.current?.temp_c}°C
           </div>
         </div>
-        <div className="flex">
+        <div className="flex flex-wrap">
           <div className="m-[1rem] px-[2rem] py-[0.5rem] bg-[#ffffff4b] flex flex-col items-center rounded-[0.5rem]" >
             <img src={wind} alt="windspeed" style={{height:"100px"}} ></img>
             <div className="text-[1.4rem] text-[white] font-[500] ">WINDSPEED</div>
