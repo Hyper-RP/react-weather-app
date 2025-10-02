@@ -1,10 +1,10 @@
 ## 👨‍💻 About the Developer  
 
-This project was developed by **Rohit Patil**, a Software developer passionate about building user-friendly interfaces.  
+This project was developed by **Rohit**, a Software developer passionate about building Software Application.  
 
 ### 🔹 **Developer Info:**  
 - 🎓 **Education:** Bachelor's Degree in Computer Engineering  
-- 💻 **Skills:** HTML,CSS,Javascript,ReactJs,TailwindCSS,Java,Spring Boot,SQL
+- 💻 **Skills:** HTML, CSS, Javascript, ReactJs, TailwindCSS, Java, Spring Boot, SQL
 
 - 🔥 **Interests:** Software Development
 - 🤝 **Connect with Me:** [GitHub](https://github.com/Hyper-RP) 
@@ -42,7 +42,7 @@ cd react-weather-app
 
 3️⃣ Install dependencies:
 
-npm install
+npm i
 
 4️⃣ To run app:
 
