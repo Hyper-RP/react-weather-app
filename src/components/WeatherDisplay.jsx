@@ -34,7 +34,7 @@ function WeatherDisplay() {
         alt="weather icon"
         className="w-32 h-32 mx-auto"
       />
-      <p className="text-4xl font-bold">{Math.round(data.main.temp)}°c</p>
+      <p className="text-4xl font-bold">{Math.round(data.main.temp>=100?data.main.temp/10:data.main.temp)}°c</p>
       <p className="text-xl">{data.weather[0].main}</p>
       <div className="flex justify-around mt-4">
         <div className="flex items-center">

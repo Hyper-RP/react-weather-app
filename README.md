@@ -49,3 +49,5 @@ npm i
 npm run dev
 
 
+⚠️ **Note:** The API key in this project is intentionally exposed to save you time in setting up and generating a new key.  
+It is meant only for learning and testing purposes. Please avoid using it in production environments.
