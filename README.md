@@ -7,7 +7,7 @@ This project was developed by **Rohit**, a Software developer passionate about b
 - 💻 **Skills:** HTML, CSS, Javascript, ReactJs, TailwindCSS, Java, Spring Boot, SQL
 
 - 🔥 **Interests:** Software Development
-- 🤝 **Connect with Me:** [GitHub](https://github.com/Hyper-RP) 
+- 🤝 **Connect with Me:** [Linkedin](https://www.linkedin.com/in/rohit-patil-hyperrp/) 
 ---
 <br>
 
